@@ -16,7 +16,7 @@ Object -> Camera OV7725 -> Raspberry Pico RB2040 -> OLED-Display SSD1306 -> View
 ## Links
 [-> views](#views)  
 
-[-> youTube clip (soon)](https://youtu.be/NsE_c5HfDDw)  
+[-> youTube](https://youtu.be/NsE_c5HfDDw)  
 
 [-> source](source)
 
