@@ -1,4 +1,4 @@
-# **Pico-Cam**
+# **PicoCam**
 
 ### A nonsensical Scherzo for Camera and OLED-Display
 
