@@ -1,0 +1,16 @@
+// cam_wiz V0.7 220214 qrt@qland.de
+
+.program parInput
+
+.define HREF_PIN 17
+.define PCLK_PIN 16
+
+.wrap_target
+    wait 0 GPIO PCLK_PIN
+    wait 1 GPIO PCLK_PIN
+
+    in pins, 8
+.wrap
+
+% c-sdk {
+%}
