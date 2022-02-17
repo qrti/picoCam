@@ -61,7 +61,7 @@ options (overlay display)
 ```
 
 ## Schematic
-(soon)
+<img src="images/schematic.png" width=640>
 
 <br>
 
