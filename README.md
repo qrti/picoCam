@@ -6,11 +6,15 @@
 
 <img src="images/00_title.jpg" width=480>
 
+Object -> Camera OV7725 -> Raspberry Pico RB2040 -> OLED-Display SSD1306 -> Viewer
+
 <br>
 
 ## Summary
 ```
-Object -> Camera OV7725 -> Raspberry Pico RB2040 -> OLED-Display SSD1306 -> Viewer
+Question: Does connecting a VGA camera to a 0.96" monochrome display make sense? 
+
+Answer:   Not really!
 ```
 
 ## Links
@@ -53,7 +57,7 @@ options (overlay display)
   if the display tends to stuck try to reduce I2CFREQ in oled.h
 - halftone patterns 3x3 are wrapped from last to first row
 - black/white halftone offsets for custom 2x2 and 3x3 are the same
-- extreme black/white haltftone offset values might produce strange display effects
+- extreme black/white halftone offset values might produce strange display effects
 - night vision might not switch off properly, reason unknown
 - attached python scripts invoke the RP2040 assembler on .pio file changes when compiling
   see platform.ini, pre_script.py and post_script.py
@@ -133,4 +137,4 @@ Option Contrast
 
 ---
 
-[qrt@qland.de](mailto:qrt@qland.de) 220214
+[qrt@qland.de](mailto:qrt@qland.de) 220222
