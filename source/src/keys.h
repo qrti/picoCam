@@ -5,10 +5,10 @@
 #include "pico/stdlib.h"
 #include "option.h"
 
-#define MINUS_PIN           26
+#define OPT_PIN             26
 #define PLUS_PIN            27
-#define OPT_PIN             28
-#define KEY_MASK            (1<<OPT_PIN | 1<<PLUS_PIN | 1<<MINUS_PIN)
+#define MINUS_PIN           28
+#define KEY_MASK            (1<<MINUS_PIN | 1<<PLUS_PIN | 1<<OPT_PIN)
 
 #define KEY_CYCLE           10                      // 10 ms
 #define KEY_LONG            (2000 / KEY_CYCLE)      // 2 s
