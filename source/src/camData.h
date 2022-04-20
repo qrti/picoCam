@@ -11,7 +11,7 @@
 #include "hardware/dma.h"
 #include "hardware/structs/bus_ctrl.h"
 
-#define SYS_CLK_DIV    10                  // 125 MHz / SYS_CLK_DIV = 12.5 MHz (OV7725 10..48 MHz)
+#define SYS_CLK_DIV    10                   // 125 MHz / SYS_CLK_DIV = 12.5 MHz (OV7725 10..48 MHz)
 #define PIN_BASE        8                   // D0
 #define PIN_COUNT       8                   // D0..D7
 

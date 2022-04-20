@@ -43,7 +43,7 @@
 //   try Pico reset (RUN (pin 30) to GND) or power up again
 // - OLED display might stuck in I2C handshake on Pico reset, try power up again
 // - OLED I2C frequency is tuned from default 400 KHz to 2 MHz to make the display more fluent
-//   if the display tends to stuck try to reduce I2CFREQ in oled.h
+//   if the display tends to stuck or is streaky try to reduce I2CFREQ in oled.h
 // - halftone patterns 3x3 are wrapped from last to first row
 // - black/white halftone offsets for custom 2x2 and 3x3 are the same
 // - extreme black/white haltftone offset values might produce strange display effects
