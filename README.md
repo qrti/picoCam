@@ -62,7 +62,7 @@ options (overlay display)
 ```
 
 ## Schematic
-<img src="images/miniOled_schematic.png" width=640>
+<img src="images/schematic.png" width=640>
 
 <br>
 
