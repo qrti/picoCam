@@ -18,16 +18,16 @@ Answer:   Not really! (But, some fundamental RP2040 routines are exhibited)
 
 ## Links
 [-> views](#views)  
-
 [-> youTube](https://youtu.be/NsE_c5HfDDw)  
-
 [-> source](source)
+
+Slightly extended project with RGB OLED  
+https://github.com/qrti/picoCamRbg
 
 <br>
 
-## Options
+## Options (Overlay Display)
 ```
-options (overlay display)
 - brightness, contrast
 - halftone patterns D2x2 - D3x3 - 1x1 noise - C2x2 - C3x3
   D = default polynomial distribution, C = custom linear distribution
@@ -66,7 +66,7 @@ options (overlay display)
 
 <br>
 
-## Structure
+## Software Structure
 ```
            ____ main ____
          /         \      \ 
