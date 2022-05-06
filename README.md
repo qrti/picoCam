@@ -22,7 +22,7 @@ Answer:   Not really! (But, some fundamental RP2040 routines are exhibited)
 [-> source](source)
 
 Slightly extended project with RGB OLED  
-https://github.com/qrti/picoCamRbg
+https://github.com/qrti/picoCamRgb
 
 <br>
 
