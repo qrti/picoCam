@@ -13,15 +13,17 @@ Object -> Camera OV7725 -> Raspberry Pico RB2040 -> OLED-Display SSD1306 -> View
 ## Summary
 ```
 Question: Does connecting a VGA camera to a 0.96" monochrome display make sense? 
-Answer:   Not really! (But, some fundamental RP2040 routines are exhibited)
+Answer:   Not really! (But, some useful RP2040 routines are exhibited)
 ```
 
 ## Links
 [-> views](#views)  
-[-> youTube](https://youtu.be/NsE_c5HfDDw)  
 [-> source](source)
 
-Slightly extended project with RGB OLED  
+youTube video  
+https://youtu.be/NsE_c5HfDDw
+
+slightly extended project with RGB OLED  
 https://github.com/qrti/picoCamRgb
 
 <br>
